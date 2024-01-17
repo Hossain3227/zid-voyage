@@ -11,6 +11,7 @@
         width: 100%;
         left: -100%;
         transition: all .5s;
+        background-color: rgba(0,0,0,0.7);
         /* border: 1px solid blue; */
     }
 
@@ -21,8 +22,12 @@
     .item-container a{
         display: block;
         margin-right: 0;
+        color: #FFF;
         /* border: 1px solid red; */
         text-align: center;
+    }
+    .item-container a:hover{
+      color: #FF5400;
     }
 
     #check{
