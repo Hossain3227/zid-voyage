@@ -1,0 +1,298 @@
+@media screen and (max-width:600px) {
+    .header-section{
+        flex-direction: column;
+        position: relative;
+    }
+    .item-container{
+        flex-direction: column;
+        position: fixed;
+        top: 120px;
+        gap: 20px;
+        width: 100%;
+        left: -100%;
+        transition: all .5s;
+        /* border: 1px solid blue; */
+    }
+
+    .icon-container{
+        width: 100%;
+        /* border: 1px solid blue; */
+    }
+    .item-container a{
+        display: block;
+        margin-right: 0;
+        /* border: 1px solid red; */
+        text-align: center;
+    }
+
+    #check{
+        display: block;
+        position: absolute;
+        right: 30px;
+        opacity: 0;
+    }
+    .checkbtn{
+        display: block;
+        position: absolute;
+        right: 30px;
+        top: 42px;
+        cursor: pointer;
+        /* border: 1px solid red;  */
+    }
+    
+    #check:checked ~ .item-container{
+        left: 0;
+    }
+
+    /* banner section */
+    .banner-section{
+        /* width: 100%; */
+        margin: 0 20px;
+    }
+    .banner-title{
+        font-size: 22px;
+        font-weight: 800;
+    }  
+    .banner-title h3{
+        margin-bottom: 5px;
+    }
+    .banner-description{
+        font-size: 14px;
+        font-weight: 400;
+        /* margin-left: 20px; */
+        width: 80%;
+        margin-bottom: 15px;
+        height: 50px;
+        /* padding: 10px; */
+
+        text-align: center;
+        /* border: 1px solid red; */
+    }
+    .banner-in{
+        flex-direction: column;
+        /* border: 1px solid red; */
+        /* justify-content: center; */
+        align-items: center;
+        width: 287px;
+        /* gap: 16px; */
+        /* margin: 20px; */
+
+    }
+    .banner-in input,
+    .banner-in select{
+        /* border: 1px solid blue; */
+        /* display: flex; */
+
+        width: 255px;
+        height: 52px;
+    }
+    .banner-in input{
+        width: 235px;
+        height: 48px;
+        border: none;
+    }
+    .btn-primary{
+        width: 255px;
+        height: 52px;
+    }
+
+
+
+  /* popular tours */
+  .tour-container{
+    flex-direction: column;
+    margin: 0 20px;
+  }
+
+  .tour-container-txt h3{
+    margin-top: 25px;
+    font-size: 20px;
+    margin-bottom: 16px;
+  }
+  .tour-container-txt p{
+    font-size: 16px;
+    width: 100%;
+    height: 52px;
+  }
+  /* .tour-container-txt ul{
+    border: 1px solid red;
+  } */
+  .tour-container-txt ul li{
+    /* border: 1px solid green; */
+    height: 42px;
+  }
+  #read-btn{
+    margin-top: 24px;
+    margin-bottom: 28px;
+  }
+  .tour-img img{
+    width: 100%;
+  }
+
+
+  /* choose destination */
+  .dest-container{
+    margin-top: 450px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .dest-txt h3{
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+  .dest-txt p{
+    margin-left: 50px;
+    width: 80%;
+
+  }
+  .dest-img-container img{
+    /* width: 335px;   */
+     height: 240px;
+    }
+
+  .dest-container-1,
+  .dest-container-2,
+  .dest-container-3{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    }
+
+  #maldives{
+    top: 20%;
+    left: 40%;
+  }
+  #indonesia{
+    top: 70%;
+    right: 35%;
+    }
+    #srilanka{
+      top: 13%;
+      left: 40%;
+    }
+    #north-america{
+      top: 48%;
+      left: 33%;
+    }
+    #bangladesh{
+      top: 80%;
+      right: 30%;
+    }
+    #kashmir{
+      top: 20%;
+      left: 42%;
+    }
+    #bandarban{
+      top: 73%;
+      right: 33%;
+ 
+ 
+    }
+
+    /* why choose us */
+    .choose-us-container{
+      /* height: auto; */
+      margin-top: 57rem;
+      margin-left: 20px;
+      margin-right: 20px;
+      padding: 20px;
+    }
+    .choose-duo-container{
+      flex-direction: column;
+      padding: 0;
+    }
+    .choose-sin-container{
+      flex-direction: column;
+      justify-content: flex-start;
+      margin-top: 25px;
+      padding: 0;
+      /* border: 1px solid red; */
+    }
+    .hotel,
+    .service,
+    .best-price{
+      box-sizing: border-box;
+      width: 100%;
+      padding: 32px;
+    }
+    .service{
+      margin-bottom: 0;
+    }
+    .best-price{
+
+      height: 260px;
+    }
+ /* perfect place */
+    
+    .perfect-place-container{
+      /* margin-top: 450px; */
+      margin-left: 20px;
+      margin-right: 20px;     
+    }
+    .get-lost-whole-container{
+     flex-direction: column; 
+    }
+    .get-lost-container h3{
+      font-size: 20px;
+      width: 50%;
+    }
+    .get-lost-container p{
+      width: 80%;
+    }
+    .get-lost-container ul li{
+      margin-bottom: 0;
+    }
+    #see-more{
+      margin-top: 16px;
+      margin-bottom: 24px;
+    }
+    .get-lost-vid-container{
+      justify-content: flex-start;
+      box-sizing: border-box;
+    }
+    .get-lost-vid-container video{
+      width: 100%;
+    }
+
+    /* news-letter-section */
+
+    .news-letter-section{
+      margin-left: 20px;
+      margin-right: 20px;     
+    }
+    .news-whole-container{
+      flex-direction: column;
+    }
+    .newsletter-container{
+      margin-bottom: 24px;
+    }
+    .newsletter-container p{
+      /* border: 1px solid red; */
+      width: 70%;
+   }
+    .newsletter-img-container{
+      margin-left: 0;
+      justify-content: flex-start;
+    }
+    .traveldot-com{
+      width: 214px;
+      height: 79px;
+      top: 75%;
+      left: 75%;
+      padding: 5px;
+    }
+    .traveldot-com h2{
+      font-size: 21px;
+    }
+    .traveldot-com p{
+      font-size: 15px;
+    }
+
+    /* footer */
+    .footer-icon img{
+      margin-left: 125px;
+      /* margin-right: auto; */
+    }
+    .footer-line{
+      width: 335px;
+    }
+}
